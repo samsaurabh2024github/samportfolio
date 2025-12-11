@@ -1,43 +1,44 @@
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
-import project1 from "../assets/studentmImg.jpeg";
-import project2 from "../assets/studentmImg.jpeg";
-import project3 from "../assets/studentmImg.jpeg";
-import project4 from "../assets/studentmImg.jpeg";
+import project1 from "../assets/DeanImage2.webp";
+import project2 from "../assets/erich2.jpg";
+import project3 from "../assets/fusion1.jpg";
+import project4 from "../assets/ecommerceshopzy.jpeg";
 
 const Project = () => {
   const projectData = [
     {
       img: project1,
-      title: "Property Buying/Selling Website",
-      tech: "React | Tailwind | Node | MongoDB",
-      desc: "A real estate platform where users can list, buy, and sell properties in Arizona.",
-      live: "#",
+      title: "trumbullsecurityservices.com/",
+      tech: "React | Tailwind CSS",
+      desc: "Built a modern portfolio site for Trumbull Security Services featuring structured sections for founder bio, vision, patents, and team highlights",
+      live: "https://trumbullsecurityservices.com/",
       github: "https://github.com/samsaurabh2024github",
     },
     {
       img: project2,
-      title: "ErichMatter LMS Website",
-      tech: "React | MUI | Express | MongoDB",
-      desc: "Users can explore courses and contact the admin to purchase services.",
+      title: "ErichMatter  Website",
+      tech: "React | tailwind css  ",
+      desc: "A Modern website for a wellness therapist with service pages and branding structure.",
       live: "https://erichmatter.com",
       github: "https://github.com/samsaurabh2024github",
     },
     {
       img: project3,
-      title: "House Renting E-commerce",
-      tech: "React | Tailwind | Email API",
-      desc: "Website for renting houses with email API integration for booking inquiry.",
-      live: "#",
+      title: "Sports Academy Management System",
+      tech: "React | Tailwind | Email API | MERN |Redux Toolkit",
+      desc: "Developed a comprehensive sports academy management system with user authentication, course management, and email notifications, Featuring both admin and coach dashboard woth attendance tracking system.",
+      live: "samfusion.fusionsport.in",
       github: "https://github.com/samsaurabh2024github",
     },
-    {
-      img: project4,
-      title: "Attendance Management System",
-      tech: "React | Node | Express | MySQL",
-      desc: "Teacher login system with secure validation using JWT authentication.",
-      live: "#",
-      github: "https://github.com/samsaurabh2024github",
-    },
+  {
+  img: project4,
+  title: "Shopzy – E-commerce Website",
+  tech: "React | Node | Express | Mysql | Redux Toolkit",
+  desc: "A full-featured MERN e-commerce platform with product listing, cart management, user authentication, and seamless checkout flow.",
+  live: "#",
+  github: "https://github.com/samsaurabh2024github",
+}
+
   ];
 
   return (

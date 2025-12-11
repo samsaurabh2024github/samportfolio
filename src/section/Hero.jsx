@@ -1,6 +1,6 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import heroImage from "../assets/react.svg"; // Update image filename if needed
+import heroImage from "../assets/sam2img.jpg"; // Update image filename if needed
 import About from "./About";
 
 const Home = () => {
@@ -29,7 +29,7 @@ const Home = () => {
         {/* Buttons */}
         <div className="flex flex-wrap justify-center md:justify-start gap-4 mt-6">
          <a
-  href="https://drive.google.com/file/d/1cAMD8-i8M-ir3Z3hVXmqArKFI3qAuNF_/view?usp=sharing"
+  href="https://drive.google.com/file/d/1IVUDFyihcn2jgkBsCEKEEX5BpRS-3ghO/view?usp=sharing"
   target="_blank"
   rel="noopener noreferrer"
   className="px-6 py-3 bg-green-600 hover:bg-green-700 text-white rounded-lg transition"

@@ -28,26 +28,36 @@ const About = () => {
       </div>
 
       {/* Experience Cards */}
-      <h3 className="text-2xl font-bold mt-12 mb-6 text-green-600 dark:text-green-400">Experience</h3>
       <div className="grid md:grid-cols-2 gap-8">
         
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-green-400/40 transition">
-          <h4 className="text-xl font-bold">Full Stack Developer Intern</h4>
-          <p className="text-gray-600 dark:text-gray-300 mt-1">@ FourBrick Technology</p>
-          <p className="mt-3 text-gray-700 dark:text-gray-400">
-            Built full-stack projects including websites, dashboards & API integrations.
-          </p>
-        </div>
+  {/* Full Stack Developer Intern */}
+  <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-green-400/40 transition">
+    <h4 className="text-xl font-bold">Full Stack Developer Intern</h4>
+    <p className="text-gray-600 dark:text-gray-300 mt-1">@ FourBrick Technology</p>
+    <p className="mt-3 text-gray-700 dark:text-gray-400">
+      Built full-stack projects including websites, dashboards & API integrations.
+    </p>
+  </div>
 
-        <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-green-400/40 transition">
-          <h4 className="text-xl font-bold">Sales Executive</h4>
-          <p className="text-gray-600 dark:text-gray-300 mt-1">@ ITC Smart Bazar</p>
-          <p className="mt-3 text-gray-700 dark:text-gray-400">
-            Managed customer interactions & built communication and leadership skills.
-          </p>
-        </div>
+  {/* Associate Full Stack Developer */}
+  <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-green-400/40 transition">
+    <h4 className="text-xl font-bold">Associate Full Stack Developer</h4>
+    <p className="text-gray-600 dark:text-gray-300 mt-1">@ FourBrick Technology</p>
+    <p className="mt-3 text-gray-700 dark:text-gray-400">
+      Worked on scalable MERN applications, optimized UI performance, and integrated secure backend APIs.
+    </p>
+  </div>
 
-      </div>
+  {/* Associate DevOps Engineer (Promotion) */}
+  <div className="bg-gray-100 dark:bg-gray-800 p-6 rounded-xl shadow-md hover:shadow-green-400/40 transition">
+    <h4 className="text-xl font-bold">Associate DevOps Engineer (Promotion)</h4>
+    <p className="text-gray-600 dark:text-gray-300 mt-1">@ FourBrick Technology</p>
+    <p className="mt-3 text-gray-700 dark:text-gray-400">
+      Improved CI/CD pipelines, automated deployments, and enhanced development workflows using DevOps tools.
+    </p>
+  </div>
+
+</div>
 
       {/* Skills Section */}
 <h3 className="text-2xl font-bold mt-12 mb-6 text-green-600 dark:text-green-400">
