@@ -27,7 +27,7 @@ const Project = () => {
       title: "Sports Academy Management System",
       tech: "React | Tailwind | Email API | MERN |Redux Toolkit",
       desc: "Developed a comprehensive sports academy management system with user authentication, course management, and email notifications, Featuring both admin and coach dashboard woth attendance tracking system.",
-      live: "samfusion.fusionsport.in",
+      live: "https://samfusion.fusionsport.in/",
       github: "https://github.com/samsaurabh2024github",
     },
   {
